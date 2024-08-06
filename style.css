@@ -1,0 +1,46 @@
+.nav-details{
+    background-color: #088395;
+   
+}
+#centro{
+    background-color: #ffffff;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+ 
+}
+.titulo{
+    font-weight: 800;
+}
+
+
+main{
+    background-color: #ffffff;
+}
+.fundo{
+    background-color: #c6e4f8;
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    75% {
+        transform: scale(1.08);
+    }
+    100% {
+        transform: scale(1.13);
+    }
+}
+
+.btn-outline-secondary {
+    animation:pulse 2s infinite;
+    background-color: #088395;
+    border-color: black;
+    border-radius: 40px;
+    color: white;
+}
+h1{
+    color: #0b5a66;
+}
